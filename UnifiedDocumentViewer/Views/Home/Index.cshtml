@@ -6,13 +6,19 @@
 }
 
 <h2>Unified Document Viewer</h2>
-
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
 <form method="post">
     <div class="mb-3">
         <label class="form-label">VIN</label>
         <input name="vin"
                class="form-control"
-               placeholder="Enter VIN" />
+               placeholder="Enter VIN" pattern="[A-Za-z0-9]+"
+               title="Only letters and numbers are allowed" required />
     </div>
 
     <button class="btn btn-primary">

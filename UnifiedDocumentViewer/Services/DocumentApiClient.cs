@@ -27,17 +27,16 @@ namespace UnifiedDocumentViewer.Services
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"HTTP Error: {ex.Message}");
+                
                 throw;
             }
             catch (TaskCanceledException ex)
             {
-                Console.WriteLine($"Request Timeout: {ex.Message}");
+               
                 throw;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Unexpected Error: {ex.Message}");
                 throw;
             }
         }
