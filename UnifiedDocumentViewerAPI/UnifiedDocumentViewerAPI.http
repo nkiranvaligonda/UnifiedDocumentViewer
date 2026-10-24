@@ -1,0 +1,6 @@
+@UnifiedDocumentViewerAPI_HostAddress = http://localhost:5199
+
+GET {{UnifiedDocumentViewerAPI_HostAddress}}/api/
+Accept: application/json
+
+###

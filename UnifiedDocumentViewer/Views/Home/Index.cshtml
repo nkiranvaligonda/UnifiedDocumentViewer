@@ -1,0 +1,48 @@
+﻿@model List<UnifiedDocumentViewer.Models.Document>
+
+@{
+    ViewData["Title"] = "Unified Document Viewer";
+    Layout = "_Layout";
+}
+
+<h2>Unified Document Viewer</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">VIN</label>
+        <input name="vin"
+               class="form-control"
+               placeholder="Enter VIN" />
+    </div>
+
+    <button class="btn btn-primary">
+        Search
+    </button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <hr />
+
+    <h4>Documents for VIN: @ViewBag.Vin</h4>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Document</th>
+                <th>Source</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doc in Model)
+            {
+                <tr>
+                    <td>@doc.DocumentName</td>
+                    <td>@doc.SourceSystem</td>
+                    <td>@doc.CreatedDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

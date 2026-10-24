@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "SV1",
+    "Vin": "ABC123",
+    "DocumentName": "Service Report.pdf",
+    "SourceSystem": "Service System",
+    "CreatedDate": "2024-03-01"
+  },
+  {
+    "Id": "SV2",
+    "Vin": "ABC123",
+    "DocumentName": "Inspection Checklist.pdf",
+    "SourceSystem": "Service System",
+    "CreatedDate": "2024-03-10"
+  }
+]

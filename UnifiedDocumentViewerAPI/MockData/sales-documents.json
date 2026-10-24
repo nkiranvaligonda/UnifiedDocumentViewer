@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "S1",
+    "Vin": "ABC123",
+    "DocumentName": "Vehicle Invoice.pdf",
+    "SourceSystem": "Sales System",
+    "CreatedDate": "2024-01-01"
+  },
+  {
+    "Id": "S2",
+    "Vin": "ABC123",
+    "DocumentName": "Purchase Contract.pdf",
+    "SourceSystem": "Sales System",
+    "CreatedDate": "2024-01-03"
+  }
+]

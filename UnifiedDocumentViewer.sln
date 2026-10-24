@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedDocumentViewer", "UnifiedDocumentViewer\UnifiedDocumentViewer.csproj", "{91F4FA3F-7E31-4CE5-A0B1-98533E94198B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedDocumentViewerAPI", "UnifiedDocumentViewerAPI\UnifiedDocumentViewerAPI.csproj", "{E1D93241-C939-4C4B-B1F4-0BAB422E33A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A82AE68-BB39-4405-A629-48B813DD2564}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91F4FA3F-7E31-4CE5-A0B1-98533E94198B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F4FA3F-7E31-4CE5-A0B1-98533E94198B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F4FA3F-7E31-4CE5-A0B1-98533E94198B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F4FA3F-7E31-4CE5-A0B1-98533E94198B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D93241-C939-4C4B-B1F4-0BAB422E33A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D93241-C939-4C4B-B1F4-0BAB422E33A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D93241-C939-4C4B-B1F4-0BAB422E33A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D93241-C939-4C4B-B1F4-0BAB422E33A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75B54BE4-4811-4488-8422-19982EF86142}
+	EndGlobalSection
+EndGlobal
